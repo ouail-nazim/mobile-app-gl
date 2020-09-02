@@ -1,0 +1,64 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="2dp"
+        android:text="date"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/heure"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_x="257dp"
+        android:layout_y="3dp"
+        android:gravity="left"
+        android:text="00:00"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/groupe"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_x="264dp"
+        android:layout_y="44dp"
+        android:text="G6"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/seance"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="43dp"
+        android:text="TD"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/module"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="43dp"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

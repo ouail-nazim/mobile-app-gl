@@ -1,0 +1,50 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/seance"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="2dp"
+        android:layout_y="3dp"
+        android:text="000000"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heure"
+        android:layout_width="88dp"
+        android:layout_height="33dp"
+        android:layout_x="64dp"
+        android:layout_y="4dp"
+        android:gravity="left"
+        android:text="heure"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_x="270dp"
+        android:layout_y="2dp"
+        android:src="@drawable/present_badge" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:layout_x="174dp"
+        android:layout_y="4dp"
+        android:text="date"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+</AbsoluteLayout>

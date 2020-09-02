@@ -1,0 +1,16 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".SeancesActivity" >
+
+    <TextView
+        android:id="@+id/groupe"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_x="91dp"
+        android:layout_y="192dp"
+        android:text="TOUT LES SEANCES" />
+
+</AbsoluteLayout>
